@@ -1,0 +1,525 @@
+/** @format */
+@import "./FontStandard";
+@import "./Responsive";
+@import "./MobileFooter";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27");
+@import "album";
+@import "./SearchMenuFooter";
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* scroll colonna 1 */
+.playlist-container-list {
+  overflow-y: scroll;
+  max-height: 75vh;
+}
+
+/* menù colonna 1 - levati pallini lista  */
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* menù colonna 1 nero con testo bianco */
+.allblacks {
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+/* bottone menù tendina colonna 1 */
+.bottone {
+  background-color: black;
+  color: white;
+}
+
+.firstCol {
+  background: linear-gradient(#000000 #222222) !important;
+}
+
+h6 {
+  font-size: 0.7em !important;
+}
+
+.card-body {
+  .firstTitle {
+    font-size: 2em !important;
+    font-weight: bold;
+  }
+}
+
+.fontSetter {
+  font-size: 1.2em !important;
+  font-weight: 800 !important;
+}
+
+.descriptionName {
+  font-size: 0.7em !important;
+  color: $FontColor !important;
+}
+
+.greyWrite {
+  font-weight: 600 !important;
+  font-size: 1em !important;
+  color: $FontColor !important;
+}
+
+.cardColor {
+  background: #2f2f2f !important;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.youAlsoLike {
+  border-radius: 20px !important;
+}
+
+.mainCard p {
+  font-size: 0.7em !important;
+}
+
+.playmusic {
+  background: #1ed760;
+  color: black;
+  border: 1px solid #1ed760;
+  font-weight: bold;
+  padding: 10px;
+  width: 100px;
+}
+
+.playmusic {
+  cursor: pointer;
+}
+
+.playmusic:hover {
+  background-color:#57ec8b !important;
+  ;
+}
+
+button {
+  border-radius: 20px;
+  border: none;
+  letter-spacing: 1px;
+  font-size: medium;
+  outline: none;
+}
+
+.savemusic {
+  /* background: none; */
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+  font-weight: bold;
+  background: none;
+  padding: 10px;
+  width: 100px;
+}
+
+.LeftAsideContainer {
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(57, 57, 57);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(125, 125, 125);
+}
+
+.card {
+  background: #2f2f2f;
+  color: white;
+}
+
+.first-song {
+  background: linear-gradient(to right, #000000, #2f2f2f);
+  padding: 3em;
+  height: 40vh;
+}
+
+hr {
+  margin: 0;
+}
+
+.MainContainer {
+  background-image: url(../assets/img/concerto-musicale.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.playlist-container-list-title {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: $FontForAll;
+  color: $FontColor;
+}
+
+.three-points {
+  background: none;
+  color: white;
+}
+
+#music-player {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: transparent;
+  // border-color: white;
+  color: white;
+  margin: 0 10px;
+}
+
+audio {
+  width: 100%;
+}
+
+#progress-bar {
+  width: 60%;
+  height: 5px;
+  background-color: white;
+  margin: 20px 10px;
+}
+
+#progress {
+  height: 100%;
+  // position: absolute;
+  // bottom: 0%;
+  // left: 39%;
+  // top: 80%;
+  /* right: 50%; */
+  width: 540px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(125, 125, 125);
+}
+.CentralContainer {
+  background: linear-gradient(0deg, rgb(0 0 0 / 96%) 0%, rgb(4 4 4 / 95%) 32%, rgb(30 30 30) 88%);
+}
+
+.mediaPlayer {
+  position: sticky;
+  bottom: 0;
+}
+
+.player {
+  background-color: #191414;
+}
+
+/* #cover-play-song {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+} */
+
+#title-play-song,
+#artist-play-song {
+  color: #fff;
+  margin: 0;
+}
+
+.random,
+.bi-shuffle,
+.bi-skip-start-fill,
+.bi-play-fill,
+.bi-skip-end-fill,
+.bi-repeat,
+.bi-mic,
+.bi-hdd-stack,
+.bi-pc-display,
+.bi-volume-up,
+.bi-arrows-angle-expand {
+  color: #fff;
+  font-size: 16px;
+  // margin-right: 10px;
+  cursor: pointer;
+}
+
+#time-inizio,
+#time-fine {
+  color: #fff;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.playWhite {
+  background: white !important;
+  border-radius: 50% !important;
+  padding: 3px 8px 0px 12px !important;
+  // margin: 15px 0;
+  border: 0;
+  color: black !important;
+  font-size: 2em !important;
+}
+// ICONE ACTIVE AND CLICK GREEN COLOR
+.bi-repeat:hover {
+  color: #1ed760;
+}
+
+.bi-shuffle:hover{
+  color: #1ed760;
+}
+i.bi.bi-shuffle.clicked {
+  color:#1ed760;
+  }
+  
+  i#repeat.clicked {
+    color:#1ed760;
+  }
+
+.bi-heart {
+  color: white;
+}
+.IconTopLeftAside {
+  font-size: 1.4em;
+}
+.HeartIconContainer {
+  background: linear-gradient(345deg, rgba(255, 255, 255, 1) 0%, rgba(163, 149, 255, 1) 28%, rgba(89, 82, 255, 1) 40%);
+  padding: 0px 6px;
+  border-radius: 3px;
+  height: 23px;
+  width: 23px;
+  i {
+    font-size: 0.7em;
+  }
+}
+
+.BookmakerIconContainer {
+  padding: 0px 6px;
+  border-radius: 3px;
+  background-color: #0f531b;
+  height: 23px;
+  width: 23px;
+  i {
+    font-size: 0.7em;
+    color: #24a73d;
+  }
+}
+
+.SpanLeftAside {
+  @include FontAndBold;
+  color: $FontColor !important;
+}
+
+.SpanLeftAside {
+  cursor: pointer;
+}
+
+.SpanLeftAside:hover {
+  color: white !important;
+}
+
+.SpanLeftAsideBox {
+  @include FontAndBold;
+  color: white !important;
+}
+
+.SpanLeftAsideBox {
+  cursor: pointer;
+}
+
+.SpanLeftAsideBox:hover {
+  background-color: #777777;
+  border-radius: 5px;
+}
+
+// .leftMusic {
+//   bottom: 0;
+//   position: fixed;
+//   margin-left: 80%;
+//   margin-bottom: 20px;
+// }
+
+
+
+#progress {
+  // width: 100%;
+  height: 20px;
+  color: white;
+}
+  .leftMusic {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    bottom: 5%;
+
+}
+  // .cuoreMusic{
+  //   position: fixed;
+  //   bottom: 0;
+  //   margin-right: 80%;
+  //   margin-bottom: 20px;
+  // }
+
+  #controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px;
+    background: #1a1b1b;
+    border-top: solid 1px grey;
+    height: 10vh;
+  }
+
+  .Provabutton {
+    background-color: white;
+    border: none;
+    color: black;
+    // padding: 0px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    // margin: 4px 1px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+  progress {
+    width: 600px;
+    height: 6px !important;
+  }
+
+  .songTitlePlayer {
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    margin: 0;
+    /* margin-left: 4em !important; */
+    // position: absolute;
+    // top: 15%;
+    // left: 5%;
+}
+.songArtistPlayer {
+  color: white !important;
+  font-size: 13px !important;
+  margin: 0;
+  // position: absolute;
+  // left: 5%;
+  // right: 0;
+  // bottom: 25%;
+  // top: 55%;
+}
+.imgPlayer{
+  width: 50px;
+  /* float: left; */
+  // position: absolute;
+  // top: 7%;
+  // left: 1%;
+}
+.mainPlayer{
+  .mainPlayer {
+    /* margin-right: 8em; */
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    bottom: 5%;
+    left: 40%;
+}
+}
+.text-center {
+  display: flex;
+  width: 40%;
+  /* flex-wrap: wrap; */
+  /* align-content: flex-start; */
+  justify-content: center;
+  align-items: center;
+  // position: absolute;
+  // right: 50%;
+  // top: 0%;
+  // bottom: 10%;
+  // left: 50%;
+}
+// .cuoreMusic.bi.bi-heart:active {
+//  color: rgb(0, 128, 49);
+// }
+
+
+.cuoreMusic.bi.bi-heart-fill{color: white;
+  }
+  .bi-play-fill{
+    font-size: 25px !important;
+  }
+  .bi-skip-end-fill, .bi-skip-start-fill, .bi-shuffle, .bi-repeat, .bi-play-fill  {
+    
+    font-size: 1.5em !important;
+    // margin-right: 20px;
+  }
+  .StartTimeOfTheSong, .EndTimeOfTheSong{
+    margin: 0;
+    color: white;
+    font-size: 0.8em;
+  }
+  input[type=range] {
+    width: 115px;
+    height: 4px;
+    accent-color: white;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 0;
+    height: 0;
+  }
+  input[type="range"]:hover::-webkit-slider-thumb {
+    background: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+ .playlist-container-list-title {
+  font-weight: normal;
+ }
+ .bi-volume-mute {
+  color: white;
+ }
+
+.bi-pause-fill{
+  font-size: 1.5em !important;
+ }
+  
+ #heartIcon {
+  color: #777777;
+  
+  }
+  
+  #heartIcon:hover {
+  color: white;
+  }
+  
+  #heartIcon.clicked {
+    color: #1ed760;
+    }
+  
+  

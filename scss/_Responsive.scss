@@ -1,0 +1,69 @@
+body {
+  @media screen and (max-width: 769px) {
+    background-color: black !important;
+  }
+}
+.IconContainer {
+    display: flex;
+    @media screen and (min-width: 769px) {
+      display: none;
+    }
+  }
+  .secondTitle, .MobileFooter, .Attachtobody {
+    @media screen and (min-width: 769px) {
+      display: none !important;
+    }
+  }
+  
+  .row .leftaside{
+    @media screen and (max-width: 769px) {
+      display: none !important;
+    }
+  }
+  .rightAside, .topnav, .firstCol, .FirstCardTitle{
+    @media screen and (max-width: 769px) {
+      display: none !important;
+    }
+  }
+  .firstTitle {
+     @media screen and (max-width: 769px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     }
+  }
+
+  #music-player{
+    @media screen and (max-width: 769px) {
+      display: none !important;
+    }
+  }
+  .centralSection {
+    @media screen and (max-width: 769px) {
+      width: 100%;
+    }
+    .headerAlbum {
+      @media screen and (max-width: 769px) {
+        flex-direction: column;
+        
+      }
+      .imgContainerAlbum {
+        @media screen and (max-width: 769px){
+
+          align-self: center;
+        }
+      }
+      h1 {
+        @media screen and (max-width: 769px){
+
+          font-size: 2em !important;
+        }
+      }
+    }
+  }
+
+  .CardSearchMobile {
+    @media screen and (max-width : 441px) {
+      max-width: 100% !important;
+    }
+  }

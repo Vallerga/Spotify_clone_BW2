@@ -1,0 +1,62 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-img-overlay {
+  top: 50% !important;
+}
+
+.button {
+  border-radius: 5px !important;
+  background-color: transparent !important;
+  color: white;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.titolo {
+  color: white;
+}
+
+td {
+  color: white;
+}
+.numeroList {
+  text-align: end;
+}
+
+.testoHeader {
+  color: white;
+}
+.testoHeader h1 {
+  font-size: 5em;
+}
+
+.PlayButton {
+    background: #1ED760 !important;
+    border-radius: 50% !important;
+    padding: 3px 10px 3px 18px!important;
+    border: 0;
+    font-size: 2em!important;
+  }
+
+  .PlayButton {
+    cursor: pointer;
+  }
+  
+  .PlayButton:hover {
+    background: #57ec8b !important;
+  }
+
+.CentralContainer {
+  background: linear-gradient(0deg, rgb(0 0 0 / 96%) 0%, rgb(4 4 4 / 95%) 32%, rgb(30 30 30) 88%) !important;
+}
+.puntibutton {
+  font-size: 1.5em !important;
+  color: white !important;
+}
+@media screen and (max-width: 769px) {
+  .MainContainer {
+    flex-direction: column-reverse !important;
+  }
+}
