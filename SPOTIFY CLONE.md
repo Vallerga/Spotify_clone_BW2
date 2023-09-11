@@ -32,7 +32,7 @@ Technologies used:
 - SASS
 - Bootstrap
 - DOM Manipulation
-- 
+
 
 ![image](https://github.com/Vallerga/Spotify_clone_BW2/assets/96259359/a6292a14-03d1-48a8-a14f-bd328355b907)
 
