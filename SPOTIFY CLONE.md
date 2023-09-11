@@ -6,7 +6,6 @@
 
 🍳 To visit my digital portfolio: [here](https://portfolio-git-master-vallerga.vercel.app/)
 
-SPOTIFY CLONE
 
 The Spotify Clone project was a group effort with contributors including Vallerga Antonio, D'Ascenzo Alessandro, Martegiani Lorenzo, and Di Lauro Susanna. The project's objective was to learn how to work by interfacing our personal contributions using version control and the merging of contributions through GitHub and GitDesktop.
 
