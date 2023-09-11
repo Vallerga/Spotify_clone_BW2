@@ -18,6 +18,7 @@ The website structure consists of 3 web pages:
 The application simulates Spotify's homepage, where there are various selections of songs generated randomly from a vast catalog based on the latest trends and user preferences. You can listen to the selected song using an implemented player and select the album or artist.
 
 🎨 ARTIST
+
 The Artist page presents a selection of the artist's main songs and albums, allowing you to listen to them and presenting the main statistics of the songs.
 
 📚 ALBUM
