@@ -1,4 +1,4 @@
-👨‍💻 To access the website: [Spotify Clone](https://lnkd.in/d-7FEP5k)
+👨‍💻 To access the website: [Spotify Clone](https://spotify-clone-bw-2.vercel.app/)
 
 🔗 My LinkedIn: [here](https://www.linkedin.com/in/antonio-vallerga-2612a468/)
 
